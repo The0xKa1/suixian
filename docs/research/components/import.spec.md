@@ -1,0 +1,23 @@
+# Import and demo specification
+- Modules: src/lib/import-score.ts, src/lib/demo-score.ts and src/lib/score-import/musicxml.ts.
+- Provide local PDF and JPG/PNG/WebP score upload, no server storage.
+- Optional paired audio is staged with the score; commit only after recognition and alignment succeed.
+- Pixel scores without a reference use the authorized loopback OMR service; audio never leaves the browser.
+- Audio import: 60 MB / 1 s–8 min, browser-supported codecs, abortable processing; no equal-time fallback.
+- MIDI .mid/.midi: 5 MB / 8 min, SMF 0/1 PPQ; direct note-on alignment, local fixed-timbre WAV synthesis. No cloud requests.
+- MIDI must accompany a supported score; unsupported timing/controllers or incomplete/ambiguous note matches are rejected.
+- IndexedDB stores playable Blob and matched timeline; MIDI also retains its original Blob and kind. Replacement keeps the library ID.
+- Public API importScore(files: File[]): Promise<ScoreDocument>.
+- PDF uses pdfjs-dist and local bundled worker; render to data URL with sensible memory limits.
+- Permit one PDF or multiple images in selection order; reject mixed PDF/image.
+- Chinese concise errors, max 30MB total / 20 pages.
+- Clean PDF resources on success and failure; no dangling object URLs.
+- Demo API createDemoScore(): ScoreDocument. Three original SVG guitar tab pages.
+- Demo page landscape 920×620, paper #f9f7f3; black/gray lines.
+- Title 晚风练习曲, subtitle Original study · Fingerstyle, 4/4, C major, ♩ = 72.
+- Six-line guitar tab in 4 complete rows, legible fingering numbers, bars and chord names.
+- Page 1 bars 01–08, page 2 09–16, page 3 17–24, sparse editorial typography.
+- Each generated page src is an encoded SVG data URL; no external images or fonts.
+- ScorePage/ScoreDocument types from src/types.ts. MIDI parsing uses @tonejs/midi.
+- MusicXML support and limits: ../musicxml.md; rendered pages and references are stored in IndexedDB.
+- The demo includes 192 reference events generated from the same frets used in its SVG pages.

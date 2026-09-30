@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+.tools/
+.omr-cache/
+__pycache__/
+.codegraph/
+.playwright-mcp/
+*.log

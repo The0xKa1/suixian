@@ -1,0 +1,11 @@
+import { writeFile } from 'node:fs/promises';
+const shapes=[[[5,3],[3,0],[2,1],[1,0],[4,2],[3,0],[2,1],[1,3]],[[5,0],[3,2],[2,1],[1,0],[4,2],[3,2],[2,1],[1,0]],[[4,3],[3,2],[2,1],[1,0],[4,3],[3,2],[2,1],[1,1]],[[6,3],[3,0],[2,0],[1,3],[4,0],[3,0],[2,0],[1,1]]];
+const tuning=[64,59,55,50,45,40], names=['C','C','D','D','E','F','F','G','G','A','A','B'], sharps=[1,3,6,8,10];
+const measures=Array.from({length:12},(_,i)=>`<measure number="${i+1}">${i===0?'<attributes><divisions>2</divisions><time><beats>4</beats><beat-type>4</beat-type></time><clef><sign>TAB</sign><line>5</line></clef><staff-details><staff-lines>6</staff-lines></staff-details></attributes><direction><sound tempo="72"/></direction>':''}${i>0&&i%4===0?'<print new-page="yes"/>':''}${shapes[i%4].map(([string,fret])=>{const midi=tuning[string-1]+fret;return `<note><pitch><step>${names[midi%12]}</step>${sharps.includes(midi%12)?'<alter>1</alter>':''}<octave>${Math.floor(midi/12)-1}</octave></pitch><duration>1</duration><type>eighth</type><notations><technical><string>${string}</string><fret>${fret}</fret></technical></notations></note>`}).join('')}</measure>`).join('');
+const xml=`<?xml version="1.0" encoding="UTF-8"?><score-partwise version="4.0"><work><work-title>溪边练习</work-title></work><part-list><score-part id="P1"><part-name>Guitar</part-name></score-part></part-list><part id="P1">${measures}</part></score-partwise>`;
+await writeFile('tests/fixtures/guitar-study.musicxml',xml);
+await writeFile('tests/fixtures/guitar-repeat.musicxml',xml.replace('</measure>','<barline><repeat direction="backward"/></barline></measure>'));
+await writeFile('tests/fixtures/not-tab.musicxml',xml.replaceAll(/<notations>.*?<\/notations>/g,''));
+await writeFile('tests/fixtures/overflow.musicxml',xml.replace('<note>','<forward><duration>1e308</duration></forward><forward><duration>1e308</duration></forward><note>'));
+await writeFile('tests/fixtures/empty-fret.musicxml',xml.replace(/<fret>\d+<\/fret>/,'<fret/>'));
+console.log('Created valid 3-page TAB and unsupported repeat/no-TAB MusicXML samples.');

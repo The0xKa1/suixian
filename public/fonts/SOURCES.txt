@@ -1,0 +1,18 @@
+Local fonts for Suixian
+
+ZCOOL XiaoWei (站酷小薇体), Regular
+Source: https://github.com/google/fonts/tree/main/ofl/zcoolxiaowei
+Upstream font: https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf
+License: SIL Open Font License 1.1; see zcool-xiaowei-OFL.txt.
+
+Cormorant Garamond, variable Regular and Italic
+Source: https://github.com/google/fonts/tree/main/ofl/cormorantgaramond
+Upstream: https://github.com/CatharsisFonts/Cormorant
+License: SIL Open Font License 1.1; see cormorant-garamond-OFL.txt.
+
+Both families were fetched from the official Google Fonts repository on 2026-09-29,
+and losslessly converted from TTF to WOFF2 using FontTools. No glyphs removed.
+
+Red Hat Mono (existing reference typography)
+Source: https://github.com/google/fonts/tree/main/ofl/redhatmono
+License: SIL Open Font License 1.1; see red-hat-mono-OFL.txt.

@@ -1,0 +1,237 @@
+{
+  "capturedAt": "2026-09-29T14:48:18.262Z",
+  "pageUrl": "https://weeksync.app/?ref=onepagelove",
+  "scope": "Public HTML, explicitly linked same-origin CSS/JS, CSS fonts, and declared source maps only.",
+  "limitation": "Production bundles are not the original development repository. Scripts were downloaded without execution.",
+  "skippedCrossOrigin": [
+    "https://www.googletagmanager.com/gtag/js?id=G-M53918BGEB"
+  ],
+  "assets": [
+    {
+      "url": "https://weeksync.app/_next/static/chunks/1255-623a1bc706ecd6cc.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/1255-623a1bc706ecd6cc.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 174198,
+      "sha256": "77be7765cb6abc7e51f6366b0442c98fa8fc566d02c02c42f1657cfe79b74a1c"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/1356-b1f982685cfcaf9f.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/1356-b1f982685cfcaf9f.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 13668,
+      "sha256": "67035ca8007ab565982bac30c6611d72e62ea7042169c354159416a2165a5042"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/2217-64b3213e9038908d.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/2217-64b3213e9038908d.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 23081,
+      "sha256": "b0ceaaed723f9cb9f49f3ad1546911d2a434b8181422a3269f8e7d0e75c97544"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/2619-04bc32f026a0d946.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/2619-04bc32f026a0d946.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 8564,
+      "sha256": "a9b6c2213ea787a015c0169d198b4a90d7a44a0cc17abb0d132e8362d3016ced"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 173025,
+      "sha256": "5421e13a91a9389517b66179f3b4b5eaa0d95245438066d4d7b19ac30aeb809b"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/app/global-error-d7018c008860df77.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/app/global-error-d7018c008860df77.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 811,
+      "sha256": "0b13f6ca31e2e9fbd56e98d5e9f30f83a53935bf017ee0cfbe78341682e0da90"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/app/page-ff4abee83e8efd56.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/app/page-ff4abee83e8efd56.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 52949,
+      "sha256": "09a549dfc67e25a75b3d4d4f054ed6827fa70dc27a04bf5132c557da43cf6b95"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/main-app-e427154017062aec.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/main-app-e427154017062aec.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 527,
+      "sha256": "3b752c87f97eda6633652bc11434be6755287a72f462720b76a20e0ea69f7cd5"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/chunks/webpack-7ff5c8a9395bb73f.js",
+      "kind": "javascript",
+      "path": "assets/_next/static/chunks/webpack-7ff5c8a9395bb73f.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 5122,
+      "sha256": "002e5787607198042916589a62ea4f8703dd01453f3c5066e6ba723a05f1a81d"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/css/6e04c8d411e9b6d3.css",
+      "kind": "stylesheet",
+      "path": "assets/_next/static/css/6e04c8d411e9b6d3.css",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 27187,
+      "sha256": "3569eb4a6eab4e9604840a3d0c9b5fa229bac924bfbfc2d271c3e738d4f09ba9"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/css/7a24432d0ab7c776.css",
+      "kind": "stylesheet",
+      "path": "assets/_next/static/css/7a24432d0ab7c776.css",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 10550,
+      "sha256": "603b01ed130a3df085a390b1c33460bdaadace37ddebdbf9c183b3fb3c78e6e3"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/1703c5a79f4c100e-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/1703c5a79f4c100e-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 12724,
+      "sha256": "7661f6503e2df49cbb284bbb73b405489b4f68b432772807898261c838caceba"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/19cfc7226ec3afaa-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/19cfc7226ec3afaa-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 19044,
+      "sha256": "46dd4cdca58c26ae87cc6927657bf83b2e8abfc39ffd0ab176e301a8d28d22bf"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/21350d82a1f187e9-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/21350d82a1f187e9-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 18744,
+      "sha256": "aebf2ab4a4ce6810d73c1ac7be7cafb4e5ec4cee2d6db5fb3e09691747ec4bd6"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/78612ffb106174fa-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/78612ffb106174fa-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 11736,
+      "sha256": "9ee1765f5f8ed0efe8755c60aadd384ef817de7d3132d8e0537c3ecd068aed86"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/8e9860b6e62d6359-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/8e9860b6e62d6359-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 85272,
+      "sha256": "a28eb6d3ccb534ae0c94ca999371df024aab60b08c3c8a5720ee9e32fa0faaa2"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/ba9851c3c22cd980-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/ba9851c3c22cd980-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 25844,
+      "sha256": "fccca918fea40089dacadc7045861314d1a6bc91f1f323cc1eeb22ebcdb321b5"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/c5fe6dc8356a8c31-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/c5fe6dc8356a8c31-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 11272,
+      "sha256": "a2e2c783ca6f9c20486e81e72a279203e86730bbf8f01ff6a5ee9dbd09e1c271"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/c6590e94fb93f6bd-s.p.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/c6590e94fb93f6bd-s.p.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 22392,
+      "sha256": "9914ffa64379b1ff4d69d246db13d7d84acceed0872b3a29008ae55020a8ff75"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/df0a9ae256c0569c-s.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/df0a9ae256c0569c-s.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 10280,
+      "sha256": "8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+    },
+    {
+      "url": "https://weeksync.app/_next/static/media/f152897b8b9d2cf6-s.p.woff2",
+      "kind": "font",
+      "path": "assets/_next/static/media/f152897b8b9d2cf6-s.p.woff2",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 24208,
+      "sha256": "c9b2d3ab6657c6121f2ba36c7c764a94748110018a76c435bbc4cb08a209aeba"
+    },
+    {
+      "url": "https://weeksync.app/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "kind": "javascript",
+      "path": "assets/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "bytes": 1239,
+      "sha256": "2595496fe48df6fcf9b1bc57c29a744c121eb4dd11566466bc13d2e52e6bbcc8"
+    },
+    {
+      "url": "https://weeksync.app/?ref=onepagelove",
+      "kind": "html",
+      "path": "index.html",
+      "status": "downloaded",
+      "httpStatus": 200,
+      "reused": true,
+      "bytes": 53692,
+      "sha256": "4739841db5ebb8f5f1932873a7ec87f90b23b3fb27bc47bb51fdf62a4ea2e541"
+    }
+  ]
+}

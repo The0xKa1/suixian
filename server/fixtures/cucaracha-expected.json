@@ -1,0 +1,284 @@
+{
+  "source": "Manually transcribed first 5 bars from Audiveris 5.11.0 data/examples/cucaracha.png; pitches verified visually, not generated from OMR",
+  "tempo": 112,
+  "durationBeats": 15,
+  "notes": [
+    {
+      "beat": 0,
+      "durationBeats": 0.5,
+      "midi": [
+        67
+      ]
+    },
+    {
+      "beat": 0.5,
+      "durationBeats": 0.5,
+      "midi": [
+        67
+      ]
+    },
+    {
+      "beat": 1.0,
+      "durationBeats": 0.5,
+      "midi": [
+        72
+      ]
+    },
+    {
+      "beat": 1.5,
+      "durationBeats": 0.5,
+      "midi": [
+        72
+      ]
+    },
+    {
+      "beat": 2.0,
+      "durationBeats": 0.5,
+      "midi": [
+        76
+      ]
+    },
+    {
+      "beat": 2.5,
+      "durationBeats": 0.5,
+      "midi": [
+        76
+      ]
+    },
+    {
+      "beat": 0,
+      "durationBeats": 1,
+      "midi": [
+        60
+      ]
+    },
+    {
+      "beat": 1,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        72,
+        76
+      ]
+    },
+    {
+      "beat": 2,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        72,
+        76
+      ]
+    },
+    {
+      "beat": 3,
+      "durationBeats": 1,
+      "midi": [
+        79
+      ]
+    },
+    {
+      "beat": 4,
+      "durationBeats": 2,
+      "midi": [
+        76
+      ]
+    },
+    {
+      "beat": 3,
+      "durationBeats": 1,
+      "midi": [
+        55
+      ]
+    },
+    {
+      "beat": 4,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        72,
+        76
+      ]
+    },
+    {
+      "beat": 5,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        72,
+        76
+      ]
+    },
+    {
+      "beat": 6,
+      "durationBeats": 0.5,
+      "midi": [
+        79
+      ]
+    },
+    {
+      "beat": 6.5,
+      "durationBeats": 0.5,
+      "midi": [
+        79
+      ]
+    },
+    {
+      "beat": 7.0,
+      "durationBeats": 0.5,
+      "midi": [
+        81
+      ]
+    },
+    {
+      "beat": 7.5,
+      "durationBeats": 0.5,
+      "midi": [
+        79
+      ]
+    },
+    {
+      "beat": 8.0,
+      "durationBeats": 0.5,
+      "midi": [
+        77
+      ]
+    },
+    {
+      "beat": 8.5,
+      "durationBeats": 0.5,
+      "midi": [
+        76
+      ]
+    },
+    {
+      "beat": 6,
+      "durationBeats": 1,
+      "midi": [
+        60
+      ]
+    },
+    {
+      "beat": 7,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        72,
+        76
+      ]
+    },
+    {
+      "beat": 8,
+      "durationBeats": 1,
+      "midi": [
+        61
+      ]
+    },
+    {
+      "beat": 9,
+      "durationBeats": 1,
+      "midi": [
+        77
+      ]
+    },
+    {
+      "beat": 10,
+      "durationBeats": 2,
+      "midi": [
+        74
+      ]
+    },
+    {
+      "beat": 9,
+      "durationBeats": 1,
+      "midi": [
+        62
+      ]
+    },
+    {
+      "beat": 10,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        71,
+        77
+      ]
+    },
+    {
+      "beat": 11,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        71,
+        77
+      ]
+    },
+    {
+      "beat": 12,
+      "durationBeats": 0.5,
+      "midi": [
+        67
+      ]
+    },
+    {
+      "beat": 12.5,
+      "durationBeats": 0.5,
+      "midi": [
+        67
+      ]
+    },
+    {
+      "beat": 13.0,
+      "durationBeats": 0.5,
+      "midi": [
+        71
+      ]
+    },
+    {
+      "beat": 13.5,
+      "durationBeats": 0.5,
+      "midi": [
+        71
+      ]
+    },
+    {
+      "beat": 14.0,
+      "durationBeats": 0.5,
+      "midi": [
+        74
+      ]
+    },
+    {
+      "beat": 14.5,
+      "durationBeats": 0.5,
+      "midi": [
+        74
+      ]
+    },
+    {
+      "beat": 12,
+      "durationBeats": 1,
+      "midi": [
+        55
+      ]
+    },
+    {
+      "beat": 13,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        71,
+        77
+      ]
+    },
+    {
+      "beat": 14,
+      "durationBeats": 1,
+      "midi": [
+        67,
+        71,
+        77
+      ]
+    }
+  ]
+}
